@@ -4,14 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Support · Sugar Daddy</title>
-<meta name="description" content="Sugar Daddy: your Dexcom glucose in Siri, widgets and a Live Activity.">
+<meta name="description" content="Sugar Daddy: an iPhone companion for Dexcom users, with Siri, widgets and a Live Activity.">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header><a class="brand" href="index.html">🍬 Sugar Daddy</a><nav><a href="index.html" aria-current="page">Support</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav></header>
+<header><a class="brand" href="index.html">🍬 Sugar Daddy</a><nav><a href="index.html" aria-current="page">Support</a><a href="features.html">Features</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav></header>
 <main>
 <h1>Support</h1>
-<p class="lead">Sugar Daddy is an iPhone companion for Dexcom G7 users. Ask Siri for your glucose, see it in Home Screen and Lock Screen widgets and a Live Activity, and make it yours with color themes.</p>
+<p class="lead">Sugar Daddy is an iPhone companion for Dexcom users, made by a fellow diabetic for our community. Ask Siri for your glucose, see it in Home Screen and Lock Screen widgets and a Live Activity, and make it yours with color themes.</p>
 
 <div class="card">
 <h2 style="margin-top:0">Contact us</h2>
@@ -20,28 +20,49 @@
 </div>
 
 <div class="card note">
-<strong>Important:</strong> Sugar Daddy is <strong>not a medical device</strong> and does not replace your Dexcom app, receiver or medical advice. Keep your Dexcom app and its Urgent Low and Low alerts turned on. Never make treatment decisions based on Sugar Daddy. Sugar Daddy is not affiliated with Dexcom, Inc.
+<strong>Important:</strong> Sugar Daddy is <strong>not a medical device</strong> and does not replace your Dexcom app, receiver or medical advice. Keep your Dexcom app and its Urgent Low and Low alerts turned on, and check your Dexcom app or do a fingerstick when something doesn't look right. Never make treatment decisions based on Sugar Daddy. Sugar Daddy is not affiliated with Dexcom, Inc.
 </div>
 
-<p>Themes are inspired by US city color palettes. Not affiliated with any league or team.</p>
+<div class="card">
+<h2 style="margin-top:0">Features and what's new</h2>
+<p>See everything Sugar Daddy can do, and what is new in version 0.8.6, which we are testing now. TestFlight is coming soon.</p>
+<a class="button" href="features.html">Features and what's new</a>
+</div>
 
 <h2>FAQ</h2>
-<details><summary>How do I set up Dexcom Share?</summary>
-<p>Sugar Daddy reads the same feed your followers see. In the Dexcom G7 app, open <strong>Connections</strong> and turn on <strong>Share</strong> (invite at least one follower). Then open Sugar Daddy, choose your region, and sign in with your Dexcom username (email or phone number) and password. Your login is kept only in this iPhone's Keychain.</p></details>
+<details><summary>What do I need to use Sugar Daddy?</summary>
+<p>An iPhone with iOS 17.0 or newer, and a Dexcom account with Share turned on (that is a setting in Dexcom's own app). Sugar Daddy is for iPhone only. There is no Apple Watch app.</p></details>
+<details><summary>How do I connect my Dexcom account?</summary>
+<p><strong>Sign in with the Dexcom account of the person wearing the sensor. A follower login won't work.</strong> In your Dexcom app, open <strong>Connections</strong> (or <strong>Share</strong>) and turn on <strong>Share</strong>. Then open Sugar Daddy, choose your region, and sign in with your Dexcom username (email or phone number) and password. Your login is kept only on your iPhone, in its secure storage. Once you are signed in, the screen shows "Password saved on this iPhone" and never shows the password itself.</p>
+<p>If readings don't show up: in your own Dexcom app, add a follower (a family member, or a second email of yours) so Share has someone to share with, then try again.</p></details>
 <details><summary>How do I ask Siri?</summary>
-<p>Say <strong>"Hey Siri, get my sugar in Sugar Daddy"</strong>. You can also ask whether you're going up or down, what your sugar was an hour ago, or how long you've been in range. The phrases also appear in the Shortcuts app.</p></details>
+<p>Always include the app name. For example: <strong>"Hey Siri, what's my sugar in Sugar Daddy"</strong>. You can also say:</p>
+<ul>
+<li>"Hey Siri, am I going up or down in Sugar Daddy"</li>
+<li>"Hey Siri, what was my sugar an hour ago in Sugar Daddy"</li>
+<li>"Hey Siri, how long have I been in range in Sugar Daddy"</li>
+<li>"Hey Siri, check my sugar with Sugar Daddy", "Ask Sugar Daddy what my sugar is" or "Sugar Daddy sugar"</li>
+</ul>
+<p>The app also has a <strong>Siri: how to</strong> screen in Settings. The phrases show up in the Shortcuts app too. To hear the answer out loud, go to iPhone <strong>Settings → Siri → Siri Responses</strong> and choose Prefer Spoken Responses.</p></details>
 <details><summary>How do I add a widget?</summary>
 <p>On the Home Screen, touch and hold an empty area, tap <strong>Edit → Add Widget</strong>, and choose Sugar Daddy. For the Lock Screen, touch and hold the Lock Screen, tap <strong>Customize</strong>, then tap the widget area. Widgets follow the app's theme ("Match app") by default; open <strong>Edit Widget</strong> to give one widget its own theme.</p></details>
 <details><summary>Why is my reading late or showing "No data"?</summary>
-<p>Dexcom Share can be delayed or unavailable, and iOS decides how often widgets refresh. Check that Share is on in your Dexcom app and that your phone is online. Always confirm with your Dexcom app or a fingerstick.</p></details>
+<p>Dexcom Share can be delayed or unavailable, and iOS decides how often widgets refresh. Home shows how old your reading is, and widgets mark a reading as stale after 10 minutes. If Dexcom is busy or limits requests, Sugar Daddy waits and tries again, never waiting longer than 5 minutes between tries. Check that Share is on in your Dexcom app and that your phone is online. Opening the app refreshes everything right away. Always confirm with your Dexcom app or a fingerstick.</p>
+<p>If readings don't show up: in your own Dexcom app, add a follower (a family member, or a second email of yours) so Share has someone to share with, then try again.</p></details>
+<details><summary>Can I rely on the alerts?</summary>
+<p>Sugar Daddy alerts are an extra, not a replacement for your Dexcom alerts. They depend on iOS Background App Refresh, so they can be delayed or missed, especially if the app was force-quit or Background App Refresh is off. Low alerts are sent as Time Sensitive notifications; they are not Critical Alerts, so they may not sound when your phone is on silent. Keep your Dexcom app's Urgent Low and Low alerts turned on.</p></details>
+<details><summary>What does Get Help do?</summary>
+<p>Get Help is manual only. It opens Messages with a text to the emergency contact you chose, including your latest reading (and your location, if you allowed it). You review it and tap Send. It does not call anyone or contact emergency services. In an emergency, call 911 (or your local number). The Get Help button appears after you sign in to Dexcom; first it shows <strong>Set up emergency contact</strong>, which walks you through choosing a contact.</p></details>
 <details><summary>Does Sugar Daddy collect my data?</summary>
 <p>No. There are no servers, analytics or tracking. Your readings and settings stay on your iPhone. See the <a href="privacy.html">Privacy Policy</a>.</p></details>
-<details><summary>How do I cancel a subscription?</summary>
-<p>Open iPhone <strong>Settings → your name → Subscriptions</strong>, choose Sugar Daddy Pro and tap Cancel. Apple handles billing and refunds.</p></details>
-<details><summary>How do I delete my data?</summary>
-<p>In the app, go to <strong>Settings → Delete All My Data</strong>. This erases your Dexcom login, saved readings, tags and settings from this iPhone.</p></details>
+<details><summary>What is Send diagnostics?</summary>
+<p>Send diagnostics opens an email with a short technical log attached (no readings, logins, locations or contacts). Nothing is sent until you press Send.</p></details>
+<details><summary>How do I export or delete my data?</summary>
+<p>You can export your history as a CSV file from Sweet History. To erase everything from this iPhone, go to <strong>Settings → Delete All My Data</strong>. This removes your Dexcom login, saved readings, tags, settings and the diagnostics log.</p></details>
+<details><summary>Is there help inside the app?</summary>
+<p>Yes. <strong>Settings → Help</strong> covers Siri, connecting Dexcom, late or missing readings, and how to contact us, and links back to this website.</p></details>
 
 </main>
-<footer>Sugar Daddy is not a medical device and is not affiliated with, endorsed by, or sponsored by Dexcom, Inc. Dexcom, G7 and Dexcom Share are trademarks of Dexcom, Inc. Themes are inspired by US city color palettes. Not affiliated with any league or team.<br>Contact: <a href="mailto:techmecks.it@gmail.com">techmecks.it@gmail.com</a></footer>
+<footer>Sugar Daddy is not a medical device and is not affiliated with, endorsed by, or sponsored by Dexcom, Inc. Dexcom, G7 and Dexcom Share are trademarks of Dexcom, Inc. Themes are not affiliated with any team or league.<br>© 2026 Tech Mecks. All rights reserved. Sugar Daddy is a trademark of Tech Mecks.<br>Contact: <a href="mailto:techmecks.it@gmail.com">techmecks.it@gmail.com</a></footer>
 </body>
 </html>
